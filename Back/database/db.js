@@ -2,8 +2,8 @@ const Sequelize = require("sequelize");
 
 const db = {};
 
-const sequelize = new Sequelize("cine", "root", "1234", {
-  host: "localhost",
+const sequelize = new Sequelize("cine", "root", "", {
+  host: "127.0.0.1",
   dialect: "mysql",
   define: {
     timestamps: false

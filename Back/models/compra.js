@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 
-const db = require("../config/db");
+const db = require("../database/db");
 const persona = require("./persona")
 const sala = require("./sala")
 
