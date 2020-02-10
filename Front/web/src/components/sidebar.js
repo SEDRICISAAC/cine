@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => (
     <div class="px-4 flex mb-0 -ml-3">
-    <div class="ml-g mt-0 px-10 py-2 w-46 h-scren bg-gray-200  ">
+    <div class="ml-g mt-0 px-10 py-2 w-46 h-screen bg-gray-200  ">
         <img class="rounded-full w-38 h-40 border-4" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/hipster-123-887999.png" alt="Mount"></img>
         <h1 class=" mt-1 py-4  ml-8 text-2sl font-bold text-left text-gray-400 flex mb-4">Menu</h1>
 

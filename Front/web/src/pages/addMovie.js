@@ -143,7 +143,7 @@ class AddMovie extends Component {
                                     />
                                 </div>
                             </div> */}
-                            <p className="text-red text-xs italic">Por favor complete todos los campos.</p>
+                            <p className="text-red text-xs ">Por favor complete todos los campos.</p>
                             <div className="mt-4">
                                 <button className="px-4 py-1 text-white font-light tracking-wider bg-gray-900 hover:bg-gray-800 rounded" type="submit">Guardar</button>
                             </div>
