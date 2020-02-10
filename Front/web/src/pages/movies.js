@@ -38,9 +38,10 @@ class Movies extends Component {
 
         return(
             <div>
+                <Header />
                 <Sidebar />,
-                <Header />,
-                <div className="ml-64">
+                
+                <div className="ml-80 -mt-80 mr-8">
                     <hr />
                     <main className="my-8">
                         <p className="text-center my-5 text-2xl">Cartelera</p>

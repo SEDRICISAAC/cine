@@ -36,17 +36,16 @@ class Login extends Component {
   render() {
     const { correo, clave } = this.state
     return (
-      <div className="bg-teal-200 h-screen font-sans">
+      <div className="bg-image-1  h-screen font-sans">
         <div className="container mx-auto h-full flex justify-center items-center">
         <div className="w-1/3">
-            <h1 className="font-hairline mb-6 text-center text-2xl">Bienvenido!</h1>
-            <div className="border-teal p-8 border-t-12 bg-white mb-6 rounded-lg shadow-lg">
-              <form className="px-8 pt-6 pb-8 mb-4 bg-white rounded" onSubmit={ this.loginAccess }>
+            <div className="border-teal p-8 border-t-12 bg-transparent mb-6 rounded-lg shadow-lg">
+              <form className="px-8 pt-6 pb-8 mb-4 bg-transparent rounded" onSubmit={ this.loginAccess }>
                 <div className="mb-4">
-                  <label className="font-bold text-gray-700 block mb-2">Correo Institucional</label>
+                  <label className="font-bold text-gray-100 block mb-2">Correo Institucional</label>
                   <input className="block appearance-none w-full bg-white border border-grey-light hover:border-grey px-2 py-2 rounded shadow"
                   type="text"
-                  placeholder="correo@gmail.com"
+                  placeholder="correo electronico"
                   name="correo"
                   value={ correo }
                   onChange={ this.changeHandler } 
@@ -54,10 +53,10 @@ class Login extends Component {
                 </div>
 
                 <div className="mb-4">
-                  <label className="font-bold text-gray-700 block mb-2">Contraseña</label>
+                  <label className="font-bold text-gray-100 block mb-2">Contraseña</label>
                   <input className="block appearance-none w-full bg-white border border-grey-light hover:border-grey px-2 py-2 rounded shadow"
                   type="password"
-                  placeholder="**************"
+                  placeholder="*******"
                   name="clave"
                   value={ clave }
                   onChange={ this.changeHandler } 
@@ -66,10 +65,10 @@ class Login extends Component {
                 </div>
 
                 <div className="flex items-center justify-between">
-                  <button type="submit" className="bg-teal-600 hover:bg-teal-700 focus:outline-none focus:shadow-outline text-white font-bold py-2 px-4 rounded">
+                  <button type="submit" className="bg-gray-500 hover:bg-blue-700 focus:outline-none focus:shadow-outline text-white font-bold py-2 px-4 rounded">
                     Ingresar
                   </button>
-                  <a href="http://localhost:3000/register" className="bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline text-white font-bold py-2 px-4 rounded">
+                  <a href="http://localhost:3000/register" className="bg-gray-500 hover:bg-blue-700 focus:outline-none focus:shadow-outline text-white font-bold py-2 px-4 rounded">
                     Registrarse
                   </a>
                 </div>  

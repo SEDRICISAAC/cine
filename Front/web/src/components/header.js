@@ -4,54 +4,32 @@ import { Link } from "react-router-dom";
 
 
 const Header = () => (
-        <div className="flex-grow flex mr-2 ml-0">
-            <div className="flex-grow flex">
-                {/* modificadooo flacaaaaa */}
-            <nav class="bg-gray-800 p-2 mt-0 fixed w-full z-10 top-0">
-        <div class="container mx-auto flex flex-wrap items-center">
-		    <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
-				<a class="text-white no-underline hover:text-white hover:no-underline" href="#">
-					<span class="text-2xl pl-2"><i class="em em-grinning"></i> Brand McBrandface</span>
-				</a>
-            </div>
-			<div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
-				<ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
-				  <li class="mr-3">
-                  <Link to="/">
-                    <button className="inline-block py-2 px-4 text-white no-underline">
-                      Salir
-                    </button>
-                </Link>
-					<a class="inline-block py-2 px-4 text-white no-underline" href="#">Active</a>
-				  </li>
-				  <li class="mr-3">
-					<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">link</a>
-				  </li>
-				  <li class="mr-3">
-					<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">link</a>
-				  </li>
-					<li class="mr-3">
-					<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">link</a>
-				  </li>
-				</ul>
-			</div>
-        </div>
-    </nav>
-                {/* modificadooo flacaaaaa */}
-
-
-                {/* <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4">
-                    Ayuda
-                </a> */}
-            </div>
-            <div>
+         
+<header className="lg\:px-16 px-0 bg-gray-700 flex flex-wrap items-center lg\:pt-0 py-4 mb-0 ">
+    <div className="flex-1 flex justify-between items-center">
+        <a href="#">
+            <svg width="32" height="36" viewBox="0 0 32 36" ></svg>
+        </a>
+    </div>
+    <label for="menu-toggle" className="pointer-cursor lg:hidden block">
+        <svg className="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"> 
+        <title> Menu </title> 
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+    </label>
+    <input className="hidden" type="checkbox" id="menu-toggle" />
+    <div className="hidden lg:flex lg:items-center lg:w-auto w-full mr-3" id="menu">
                 <Link to="/">
-                    <button className="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline">
-                      Salir
+                    <button className="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 pointer-cursor">
+                    <img className="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" src="https://img.icons8.com/color/48/000000/enter-2.png" alt="Andy Leverenz"></img>
+
                     </button>
                 </Link>
-            </div>            
-        </div>
+    </div>
+</header>
+ 
+                 
+    
 )
 
 export default Header;

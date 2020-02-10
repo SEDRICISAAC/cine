@@ -5,50 +5,85 @@ import Header from '../components/header';
 
 const Home = () => {
   return (
-    <div>
-        <Sidebar />,
-        <Header />,
-        <div className="ml-64">
-            <hr />
-            <main className="my-8">
-                <div className="flex h-56">
-                    <div className="w-1/3 h-48 flex-1 text-center px-4 py-2">
-                        <div className="max-w-xs rounded overflow-hidden shadow-lg my-2">
-                            <img className="w-full" src="https://lh4.googleusercontent.com/proxy/gcPI9_7KcNOYzKPcfLVwa1a6WMufmoMKD7ST7aeZDsms9NdLRVnFm7_BXL-pyUmZ-XtS1kPUC7A52vRqUrRhokRe1NzUflGxmnN4kq8Y4WqZvskAgvcoiDBrpe8" alt="Sunset in the mountains"></img>
-                            <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2">Peliculas</div>
-                                <p className="text-grey-darker text-base">
-                                    2
-                                </p>
-                            </div>
-                        </div>
+      <body>
+        <Header />
+    <Sidebar />
+  
+        
+        <div className="ml-80 -mt-80 mr-8">
+             
+                <div  class="max-w-6xl bg-white rounded-lg mx-auto my-0 p-32">
+    <div class=" flex -mt-16 mt-0 w-screen px-0  ml-1 shadow-lg   max-w-2xl lg:max-w-4xl   sm:max-w-xl">
+
+        <div class="flex  w-3/5 items-center rounded-lg bg-gray-700  overflow-hidden">
+            <img class="ml-6 h-12 w-8 flex-shrink-0" src="https://img.icons8.com/plasticine/100/000000/name.png" alt=""></img>
+                    <div class="px-4 py-4">
+                        <p class="  text-gray-400 text-sm">Clientes</p>
+                        <h3 class="text-lg font-bold text-gray-400">25</h3>
                     </div>
-                    <div className="w-1/3 h-40 flex-1 text-center px-4 py-2 m-2">
-                        <div className="max-w-xs rounded overflow-hidden shadow-lg my-2">
-                            <img className="w-full" src="https://www.hotelogix.com/es/blog/wp-content/uploads/2019/06/Aumentar-reservaciones-directas.jpg" alt="Sunset in the mountains"></img>
-                            <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2">Salas de Cine</div>
-                                <p className="text-grey-darker text-base">
-                                    2
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="w-1/3 h-40 flex-1 text-center px-4 py-2 m-2">
-                        <div className="max-w-xs rounded overflow-hidden shadow-lg my-2">
-                            <img className="w-full" src="https://andinaediciones.com.ec/modules/fieldslideshow/images/libros-andina-ediciones-602.jpg" alt="Sunset in the mountains"></img>
-                            <div className="px-6 py-4">
-                            <div className="font-bold text-xl mb-2">Reporte de Compras</div>
-                                <p className="text-grey-darker text-base">
-                                    2
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>
+        </div>
+
+        <div class="flex  w-3/5 items-center rounded-lg bg-gray-700  overflow-hidden">
+            <img  class="ml-6 h-8 w-8 flex-shrink-0" src="https://img.icons8.com/office/80/000000/test-failed.png" alt=""></img>
+                      <div class="px-6 py-4" >
+                          <p class="text-gray-400 text-sm" >Work Orders</p>
+                          <h3 class="text-lg font-semibold text-gray-400" >70</h3>
+                      </div>
+        </div>
+
+        <div class="flex w-3/5 items-center rounded-lg bg-gray-700  overflow-hidden">
+            <img  class="ml-6 h-8 w-8 flex-shrink-0" src="https://img.icons8.com/officel/80/000000/magazine.png" alt=""></img>
+                      <div class="px-6 py-4" >
+                          <p class=" text-gray-400 text-sm" >New Invoices</p>
+                          <h3 class=" text-lg font-semibold text-gray-400" >44</h3>
+                      </div>
+        </div>
+
+        <div  class="flex w-4/5 items-center rounded-lg bg-gray-700  overflow-hidden " >
+            <img  class="ml-6 h-8 w-8 flex-shrink-0" src="https://img.icons8.com/dusk/64/000000/open-box.png" alt=""></img>
+                      <div class="px-6 py-4" >
+                         <p class="text-gray-400 text-sm" >Open Cases</p>
+                         <h3 class="text-lg font-semibold text-gray-400" >35</h3>
+                     </div>
         </div>
     </div>
+
+    <div class=" absolute mt-64 w-full px-1 lg:w-1/3 xl:w-1/3  sm:flex">
+            <div class="flex items-center rounded-lg bg-gray-500 shadow-lg overflow-hidden  " >
+                <img  class="ml-6 h-8 w-6 flex-shrink-0" src=" https://img.icons8.com/offices/80/000000/content.png" alt=""></img>
+                    <div class="px-6 py-4" >
+                        <h3 class="text-lg font-bold text-gray-800" >500</h3>
+                        <p class="text-gray-600 text-sm" >  APPLICATIONS</p>
+                    </div>
+            </div>
+    </div>
+
+    <div class="mt-6 w-full px-1 lg:w-1/2 xl:w-1/3">
+          <div class="flex items-center rounded-lg bg-gray-500 shadow-lg overflow-hidden" >
+              <img  class="ml-6 h-8 w-8 flex-shrink-0" src="https://img.icons8.com/plasticine/100/000000/calendar.png" alt=""></img>
+                  <div class="px-6 py-4" >
+                      <h3 class="text-lg font-bold text-gray-800" >100</h3>
+                      <p class="text-gray-600 text-sm" > INTERVIEWS</p>
+                  </div>
+          </div>
+    </div>
+
+    <div class="mt-6 w-full px-1 lg:w-1/3 xl:w-1/3">
+          <div class="flex items-center rounded-lg bg-gray-500 shadow-lg overflow-hidden" >
+              <img  class="ml-6 h-8 w-8 flex-shrink-0" src="https://img.icons8.com/dusk/64/000000/paper-plane.png" alt=""></img>
+                  <div class="px-6 py-4" >
+                      <h3 class="text-lg font-bold text-gray-800" >900</h3>
+                      <p class="text-gray-600 text-sm">  FORWARDS</p>
+                  </div>
+          </div>  
+    </div>
+    </div>
+        </div>
+  
+      </body >
+
+    
+   
   );
 }
 

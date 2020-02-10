@@ -890,7 +890,29 @@ video {
 .bg-teal-300 {
   background-color: #81e6d9;
 }
+.bg-tran {
+  background-color: #81e6d923;
+}
+.grad{
+  
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: auto;
+    height: auto;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(29, 12, 12, 0.301)), color-stop(100%,rgba(0, 0, 0, 0.65))); /* Chrome,Safari4+ */
+    z-index: 1;
+    opacity: 0.7;
+ 
+}
+.bg-image-1{
+  background-image: url("../assets/nd4UQsf.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
 
+}
 .bg-teal-400 {
   background-color: #4fd1c5;
 }
@@ -4708,7 +4730,9 @@ video {
 .mb-64 {
   margin-bottom: 16rem;
 }
-
+.ml-80{
+  margin-left: 22rem;
+}
 .ml-64 {
   margin-left: 16rem;
 }
@@ -5000,7 +5024,12 @@ video {
 .-ml-56 {
   margin-left: -14rem;
 }
-
+.-mt-80 {
+  margin-top: -36rem;
+}
+.-mt-81 {
+  margin-top: -40rem;
+}
 .-mt-64 {
   margin-top: -16rem;
 }
@@ -5008,10 +5037,14 @@ video {
 .-mr-64 {
   margin-right: -16rem;
 }
+.-mb-80{
+  margin-bottom: -40rem;
+}
 
 .-mb-64 {
   margin-bottom: -16rem;
 }
+
 
 .-ml-64 {
   margin-left: -16rem;
@@ -35518,7 +35551,7 @@ video {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
-
+  
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
