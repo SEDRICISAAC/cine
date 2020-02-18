@@ -96,9 +96,12 @@ class Rooms extends Component {
         return(
             <div>
                 <Header />
+                <div class="absolute">
                 <Sidebar />,
+                </div>
                 
-                <div className="ml-80 -mt-80 mr-8">
+                
+                <div className="ml-80  mr-8">
                     <hr />
                     <main className="my-8">
                         <div className="justify-center my-5 select-none flex">

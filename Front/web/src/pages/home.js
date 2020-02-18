@@ -5,15 +5,19 @@ import Header from '../components/header';
 
 const Home = () => {
   return (
-      <body>
-        <Header />
+      <body class="bg-white">
+          
+          <Header />
+          <div class="absolute">
     <Sidebar />
+          </div>
+   
   
         
-        <div className="ml-80 -mt-80 mr-8">
+        <div className=" h-screen">
              
-                <div  class="max-w-6xl bg-white rounded-lg mx-auto my-0 p-32">
-    <div class=" flex -mt-16 mt-0 w-screen px-0  ml-1 shadow-lg   max-w-2xl lg:max-w-4xl   sm:max-w-xl">
+                <div  class="max-w-6xl bg-transparent rounded-lg mx-80 my-16 p-32 ">
+    <div class=" flex -mt-16 mt-0 w-screen px-0  ml-1 shadow-lg   max-w-2xl lg:max-w-4xl   sm:max-w-xl ">
 
         <div class="flex  w-3/5 items-center rounded-lg bg-gray-700  overflow-hidden">
             <img class="ml-6 h-12 w-8 flex-shrink-0" src="https://img.icons8.com/plasticine/100/000000/name.png" alt=""></img>
@@ -79,6 +83,7 @@ const Home = () => {
     </div>
     </div>
         </div>
+
   
       </body >
 

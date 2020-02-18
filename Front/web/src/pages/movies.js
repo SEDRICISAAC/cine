@@ -33,17 +33,21 @@ class Movies extends Component {
 
     render() {
         const { peliculas } = this.state
-        const image_cover = require('../assets/film_default.jpg');
-        const image_categorie = require('../assets/category.png');
+        // const image_cover = require('../assets/film_default.jpg');
+        // const image_categorie = require('../assets/category.png');
 
         return(
-            <div>
-                <Header />
-                <Sidebar />,
+            <body>
                 
-                <div className="ml-80 -mt-80 mr-8">
+                <Header />
+                <div class="absolute">
+                <Sidebar />
+                </div>
+                
+                
+                <div className="ml-80  mr-8">
                     <hr />
-                    <main className="my-8">
+                    <main className="my-8 ">
                         <p className="text-center my-5 text-2xl">Cartelera</p>
                         <div className="flex flex-wrap items-center justify-center">
                         { peliculas.map(element => 
@@ -84,7 +88,8 @@ class Movies extends Component {
                         </div>
                     </main>
                 </div>
-            </div>
+            </body>
+           
         )
     }
 }

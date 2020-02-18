@@ -69,9 +69,12 @@ class AddMovie extends Component {
         return(
             <div>
                  <Header />
-                <Sidebar />,
+                 <div class="absolute">
+                    <Sidebar />,
+                 </div>
                
-                <div className="ml-80 -mt-80 mr-8">
+               
+                <div className="ml-80  mr-8">
                     <hr />
                     <main className="my-8">
                         <p className="text-center my-5 text-2xl">Bienvenido a la sección para agregar una nueva pelicula.</p>

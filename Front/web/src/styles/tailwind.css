@@ -907,11 +907,20 @@ video {
     opacity: 0.7;
  
 }
+.bac-im{
+  background: url('../assets/fond.jpg'); 
+  background-size: cover; 
+  background-position: center center;
+
+ }
 .bg-image-1{
-  background-image: url("../assets/nd4UQsf.jpg");
+  background-image: url("../assets/fond2.jfif");
   background-size: 100% 100%;
   background-attachment: fixed;
 
+}
+.bg-image-2{
+  background:url("https://source.unsplash.com/random/1920x1080") no-repeat center;
 }
 .bg-teal-400 {
   background-color: #4fd1c5;
@@ -1079,6 +1088,26 @@ video {
 
 .bg-pink-900 {
   background-color: #702459;
+}
+.bg-tran {
+  background-color: #81e6d923;
+}
+.deg{
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(224, 221, 221, 0.685)), color-stop(100%,rgba(5, 4, 4, 0.719)));
+}
+.grad{
+  
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: auto;
+    height: auto;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(29, 12, 12, 0.301)), color-stop(100%,rgba(0, 0, 0, 0.65))); /* Chrome,Safari4+ */
+    z-index: 1;
+    opacity: 0.7;
+ 
 }
 
 .hover\:bg-transparent:hover {
@@ -3663,6 +3692,13 @@ video {
   clear: both;
 }
 
+.font-c{
+  font-family: 'Courgette', cursive;
+}
+.font-h{
+  font-family: "Constantia", serif;
+}
+
 .font-sans {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -4245,6 +4281,11 @@ video {
 .mx-64 {
   margin-left: 16rem;
   margin-right: 16rem;
+}
+
+.mx-80 {
+  margin-left: 18rem;
+  margin-right: 24rem;
 }
 
 .my-auto {
@@ -5028,7 +5069,7 @@ video {
   margin-top: -36rem;
 }
 .-mt-81 {
-  margin-top: -40rem;
+  margin-top: -46rem;
 }
 .-mt-64 {
   margin-top: -16rem;

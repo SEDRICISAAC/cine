@@ -43,10 +43,11 @@ class FilmsRoom extends Component {
         const { sala_peliculas } = this.state
         return(
             <div>
-                 <Header />
-                <Sidebar />,
-               
-                <div className="ml-80 -mt-80 mr-8">
+                <Header />
+          <div class="absolute">
+    <Sidebar />
+          </div>
+                <div className="ml-80 mr-10">
                     <hr />
                     <main className="my-8">
                         <div className="justify-center my-5 select-none flex">
